@@ -1,0 +1,112 @@
+//Test of equality and inequality with strings
+let car = 'Suzuki'
+console.log(`Is car == 'Suzuki' | predict true?`)
+console.log(car == "Suzuki")
+console.log(car =="Honda")
+
+//Tests using the lower case function
+let lowerCase = "PAKISTAN"
+console.log("Test that string is lower")
+if (lowerCase == lowerCase.toLowerCase()){
+    console.log(true)
+} else
+    console.log(false)
+
+//Tests using the upper case function
+console.log[(`\n Tests using the upper case function`)]
+let upperCase = "PAKISTAN"
+console.log("Test that string is Upper")
+if (lowerCase == lowerCase.toUpperCase()){
+    console.log(true)
+} else
+    console.log(false+"\n")
+
+//Number Test equality and inequality
+console.log(`\n Number Test equality and inequality`)
+let num1 = 3
+let num2 = 4
+console.log("Number test - equality and inequality")
+console.log(`number 1 and number2 are equal = ${num1==num2}`)
+
+//Number Test greater than or less than
+console.log(`\n Number Test greater than or less than`)
+let num3 = 100
+let num4 = 154
+console.log("Number test - greater than or less than")
+if (num3 > num4){
+    console.log(`number3 is greater than number4`)
+}else
+    console.log(`No! number4 is greater`)
+
+
+//Number Test greater than or equal to 
+console.log(`\n Number Test greater than or equal to `)
+let num5 = 100
+let num6 = 154
+if(num5>num6){
+  console.log(`Yes Number5 is greater than Number6` )
+} else
+  console.log(`No Number5 is smaller`)
+num5=445
+num6=445
+if (num5==num6){
+  console.log(`both the numbers are equal`)
+}else
+  console.log(`Numbers are not equal`)
+
+//Number Test less than or equal to 
+console.log("\nNumber Test less than or equal to ")
+let num7 = 100
+let num8 = 154
+if(num5>num6){
+  console.log(`Yes Number7 is smaller than Number8` )
+} else
+  console.log(`No Number7 is greater`)
+num7=500
+num8=501
+if (num7==num8){
+  console.log(`both the numbers are equal`)
+}else
+  console.log(`Numbers are not equal`)
+
+//Test using "and" and 'or' operators
+console.log(`\n Test using "and" and 'or' operators`)
+num10 = 23
+num11 = 43
+num12 = 23
+num13 = 78
+console.log(`num10 = ${num10}, num11 = ${num11}, num12 = ${num12}, num13 = ${num13}`)
+if (num10 == num11 && num12 == num13){
+  console.log(`All the four numbers are equal`)
+}else 
+  console.log(`Not All the four numbers are equal`)
+
+if (num10 == num12 || num11 == num13){
+  console.log(`Only Num10 and Num12 are identical`)
+}else 
+  console.log(`No any identical pair `)
+
+  //test whether an item is in an array
+console.log(`\n test whether an item is in an array`)
+let fruit_basket = ['apple', 'oranges', 'banana']
+   
+let find_fruit = 'banana'
+if(fruit_basket.includes(find_fruit))
+
+    console.log(`Yes we have ${find_fruit}`)
+
+  else
+    console.log(`Sorry we dont have ${find_fruit}`)
+
+//test whether an item is no in an array
+console.log(`\n test whether an item is in an array`)
+let fruit_basket_new = ['Strawberry','apple', 'oranges', 'banana']
+   
+let find_fruit_new = 'melon'
+if(fruit_basket.includes(fruit_basket))
+
+    console.log(`Yes we have ${find_fruit}`)
+
+  else
+    console.log(`Sorry we dont have ${find_fruit}`)
+  
